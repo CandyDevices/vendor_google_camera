@@ -5,7 +5,7 @@ candy_device := $(patsubst %f,%,$(subst candy_,,$(TARGET_PRODUCT)))
 ifneq ($(filter fajita,$(candy_device)),)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GoogleCamera
+LOCAL_MODULE := GoogleCamera-fajita
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := system/priv-app/GoogleCamera/GoogleCamera.apk
 LOCAL_CERTIFICATE := PRESIGNED
